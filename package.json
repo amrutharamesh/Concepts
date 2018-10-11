@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eventLoop": "babel-watch nodejs-event-loop.js --presets es2015"
+    "eventLoop": "babel-watch $1 --presets es2015"
   },
   "author": "",
   "license": "ISC",
